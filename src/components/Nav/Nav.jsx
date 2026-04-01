@@ -77,8 +77,8 @@ const Nav = () => {
           </a>
           <a className="btn btn-ghost rounded-full">Login</a>
           <a className="btn bg-linear-to-r from-indigo-700 to-purple-600 text-white rounded-full">
-            <FaArrowRight className="lg:hidden"></FaArrowRight>
-            <span className="hidden lg:inline">Get Started</span>
+            <FaArrowRight className="md:hidden"></FaArrowRight>
+            <span className="hidden md:inline">Get Started</span>
           </a>
         </div>
       </div>
