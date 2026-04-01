@@ -7,6 +7,12 @@ import Products from './components/Products/Products'
 import Stats from './components/Stats/Stats'
 import Steps from './components/Steps/Steps'
 
+const getProducts = async ()=>{
+  const res = await fetch("/public/products.json")
+  return res.json()
+}
+const productsPromise = getProducts()
+
 function App() {
 
   return (
@@ -14,7 +20,7 @@ function App() {
     <Nav></Nav>
     <Banner></Banner>
     <Stats></Stats>
-    {/* <Products></Products> not complete */}
+    <Products productsPromise={productsPromise}></Products>
     <Steps></Steps>
     <Pricing></Pricing>
     <Footer></Footer>

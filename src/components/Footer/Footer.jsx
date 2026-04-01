@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className="w-11/12 mx-auto">
+      <div className="w-[95%] mx-auto">
         <hr className="opacity-35" />
         <div className="md:flex justify-between items-center py-7">
           <p className="text-gray-400">
