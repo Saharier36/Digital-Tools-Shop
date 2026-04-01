@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -76,7 +77,8 @@ const Nav = () => {
           </a>
           <a className="btn btn-ghost rounded-full">Login</a>
           <a className="btn bg-linear-to-r from-indigo-700 to-purple-600 text-white rounded-full">
-            Get Started
+            <FaArrowRight className="lg:hidden"></FaArrowRight>
+            <span className="hidden lg:inline">Get Started</span>
           </a>
         </div>
       </div>
