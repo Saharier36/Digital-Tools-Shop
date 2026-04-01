@@ -10,7 +10,7 @@ import Steps from "./components/Steps/Steps";
 import { ToastContainer } from "react-toastify";
 
 const getProducts = async () => {
-  const res = await fetch("products.json");
+  const res = await fetch("/products.json");
   return res.json();
 };
 const productsPromise = getProducts();
