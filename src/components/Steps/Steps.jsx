@@ -17,7 +17,7 @@ const Steps = () => {
           </span>
           <img
             className="p-4 bg-purple-100 rounded-full"
-            src="../../assets/user.png"
+            src="/assets/user.png"
             alt=""
           />
           <h3 className="font-bold text-2xl">Create Account</h3>
@@ -31,7 +31,7 @@ const Steps = () => {
           </span>
           <img
             className="p-4 bg-purple-100 rounded-full"
-            src="../../assets/package.png"
+            src="/assets/package.png"
             alt=""
           />
           <h3 className="font-bold text-2xl">Choose Products</h3>
@@ -45,7 +45,7 @@ const Steps = () => {
           </span>
           <img
             className="p-4 bg-purple-100 rounded-full"
-            src="../../assets/rocket.png"
+            src="/assets/rocket.png"
             alt=""
           />
           <h3 className="font-bold text-2xl">Start Creating</h3>
