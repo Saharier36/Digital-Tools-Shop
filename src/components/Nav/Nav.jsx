@@ -44,7 +44,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <a className="text-3xl font-bold bg-linear-to-r from-indigo-700 to-purple-600 bg-clip-text text-transparent cursor-pointer">
+          <a className="btn btn-ghost text-3xl font-bold bg-linear-to-r from-indigo-700 to-purple-600 bg-clip-text text-transparent">
             DigiTools
           </a>
         </div>
