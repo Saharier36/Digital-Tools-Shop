@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-const Nav = () => {
+const Nav = ({ cart }) => {
   return (
     <div className="sticky top-0 z-50">
       <div className="navbar bg-base-100 shadow-sm">
@@ -72,7 +72,7 @@ const Nav = () => {
           <a className=" btn btn-circle btn-ghost relative cursor-pointer p-2">
             <img src="/src/assets/products/shopping-cart.png" alt="" />
             <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
-              0
+              {cart.length}
             </span>
           </a>
           <a className="btn btn-ghost rounded-full">Login</a>
