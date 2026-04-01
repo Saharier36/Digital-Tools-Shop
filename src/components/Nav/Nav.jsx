@@ -1,4 +1,5 @@
 import React from "react";
+import { CiShoppingCart } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
 
 const Nav = ({ cart }) => {
@@ -70,7 +71,7 @@ const Nav = ({ cart }) => {
         </div>
         <div className="navbar-end">
           <a className=" btn btn-circle btn-ghost relative cursor-pointer p-2">
-            <img src="/src/assets/products/shopping-cart.png" alt="" />
+            <CiShoppingCart className="text-2xl" />
             <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
               {cart.length}
             </span>

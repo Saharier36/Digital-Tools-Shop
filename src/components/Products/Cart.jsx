@@ -18,10 +18,9 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
             <div key={index} className="bg-[#F9FAFC] p-4 mb-2 rounded-xl">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                  <img
-                    src={item.icon}
-                    className="border-2 border-gray-200 rounded-full p-4 w-16 h-16 flex items-center justify-center"
-                  />
+                  <span className="border-2 border-gray-200 bg-white rounded-full p-4 w-16 h-16 flex items-center justify-center text-2xl">
+                    {item.icon}
+                  </span>
                   <div>
                     <h3 className="font-bold">{item.name}</h3>
                     <p className="text-gray-500">${item.price}</p>
@@ -33,7 +32,7 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
                       removeFromCart(item);
                       toast.error("Product removed ❌");
                     }}
-                    className="btn btn-error btn-ghost"
+                    className="btn btn-error btn-ghost rounded-full"
                   >
                     Remove
                   </button>
@@ -55,9 +54,9 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
         </p>
       </div>
       <button
-        onClick={()=> {
-            clearCart();
-            toast.success("Order placed successfully 🎉");
+        onClick={() => {
+          clearCart();
+          toast.success("Order placed successfully 🎉");
         }}
         className="btn btn-block rounded-full bg-linear-to-r from-indigo-700 to-purple-600 text-white mt-4"
       >

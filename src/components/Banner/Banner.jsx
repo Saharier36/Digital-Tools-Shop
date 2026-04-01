@@ -1,4 +1,6 @@
 import React from "react";
+import { CiPlay1 } from "react-icons/ci";
+import { FaRegDotCircle } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -6,13 +8,13 @@ const Banner = () => {
       <div>
         <div className="hero bg-base-200 min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src="/src/assets/banner.png" />
+            <img src="../../assets/banner.png" />
             <div>
               <a
                 href=""
                 className="bg-[#E1E7FF] text-purple-600 font-semibold rounded-full py-1 px-3 inline-flex items-center gap-2"
               >
-                <img src="/src/assets/Group 5 (1).png" alt="" />
+                <FaRegDotCircle className="text-lg" />
                 <span>New: AI-Powered Tools Available</span>
               </a>
               <h1 className="text-5xl font-bold mt-4">
@@ -29,7 +31,7 @@ const Banner = () => {
                 Explore Products
               </button>
               <button className="btn rounded-full btn-outline btn-primary">
-                <img src="/src/assets/Play.png" alt="" />
+                <CiPlay1 className="text-2xl" />
                 <span>Watch Demo</span>
               </button>
             </div>

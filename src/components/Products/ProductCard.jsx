@@ -27,7 +27,7 @@ const ProductCard = ({product, addToCart}) => {
         </span>
 
         <div className="border-2 border-gray-200 rounded-full p-4 w-16 h-16 flex items-center justify-center">
-          <img src={product.icon} />
+          <span className="text-2xl">{product.icon}</span>
         </div>
 
         <div>
