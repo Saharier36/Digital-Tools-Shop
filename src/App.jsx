@@ -1,11 +1,11 @@
 import './App.css'
+import Nav from './components/Nav/Nav'
 
 function App() {
 
   return (
     <>
-    <h2 className='text-8xl text-red-600'>Hello</h2>
-      
+    <Nav></Nav>
     </>
   )
 }
