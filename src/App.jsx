@@ -6,7 +6,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Products from "./components/Products/Products";
 import Stats from "./components/Stats/Stats";
 import Steps from "./components/Steps/Steps";
-import { ToastContainer } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 
 const getProducts = async () => {
   const res = await fetch("/products.json");
@@ -18,7 +18,13 @@ function App() {
   const [cart, setCart] = useState([]);
 
   const handleAddToCart = (product) => {
+    const cartExists = cart.find((item) => item.id === product.id);
+    if (cartExists) {
+      toast.warning("Already added to cart!");
+      return;
+    }
     setCart((cart) => [...cart, product]);
+    toast.success("Product added to cart 🛒");
   };
 
   const handleRemoveFromCart = (productToRemove) => {
