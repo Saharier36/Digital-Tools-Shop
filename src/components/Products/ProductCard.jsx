@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { TiTick } from 'react-icons/ti';
 import { toast } from 'react-toastify';
 
 const tagClass = {
@@ -45,20 +46,7 @@ const ProductCard = ({product, addToCart}) => {
         <ul className="flex flex-col gap-2 text-[#627382]">
           {product.features.map((feature, i) => (
             <li key={i}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-6 me-2 inline-block text-success"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
+              <TiTick className="inline text-green-500 text-2xl mr-2" />
               <span>{feature}</span>
             </li>
           ))}

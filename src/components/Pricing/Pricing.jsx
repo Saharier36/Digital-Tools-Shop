@@ -1,4 +1,5 @@
 import React from "react";
+import { TiTick } from "react-icons/ti";
 
 const Pricing = () => {
   return (
@@ -22,71 +23,19 @@ const Pricing = () => {
             </p>
             <ul className="flex flex-col gap-2 text-[#627382]">
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Access to 10 free tools</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Basic templates</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Community support</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>1 project per month</span>
               </li>
             </ul>
@@ -111,105 +60,27 @@ const Pricing = () => {
             </p>
             <ul className="flex flex-col gap-2">
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Access to all premium tools</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Unlimited templates</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Priority support</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Unlimited projects</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Cloud sync</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-white text-2xl mr-2" />
                 <span>Advanced analytics</span>
               </li>
             </ul>
@@ -231,105 +102,27 @@ const Pricing = () => {
             </p>
             <ul className="flex flex-col gap-2 text-[#627382]">
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Everything in Pro</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Team collaboration</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Custom integrations</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Dedicated support</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>SLA guarantee</span>
               </li>
               <li>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6 me-2 inline-block text-success"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                <TiTick className="inline text-green-500 text-2xl mr-2" />
                 <span>Custom branding</span>
               </li>
             </ul>

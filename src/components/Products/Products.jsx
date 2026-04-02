@@ -26,7 +26,7 @@ const Products = ({
         </p>
       </div>
 
-      <div className="tabs tabs-box justify-center mb-8 bg-transparent">
+      <div className="tabs justify-center mb-8">
         <input
           type="radio"
           name="my_tabs_1"
