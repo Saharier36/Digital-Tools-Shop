@@ -50,7 +50,11 @@ const ProductCard = ({ product, addToCart }) => {
 
       <div className="mt-6">
         <button
-          className="btn btn-block rounded-full bg-linear-to-r from-indigo-700 to-purple-600 text-white"
+          className={`btn btn-block rounded-full text-white ${
+            isBuy
+              ? "bg-green-500"
+              : "bg-linear-to-r from-indigo-700 to-purple-600"
+          }`}
           onClick={handleBuy}
         >
           {isBuy ? "Added to cart" : "Buy Now"}
