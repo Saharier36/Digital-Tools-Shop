@@ -10,7 +10,7 @@ const Steps = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto  gap-8 mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto  gap-8 mt-12">
         <div className="relative bg-white rounded-2xl shadow flex flex-col items-center gap-4 py-25 px-10">
           <span className=" absolute top-4 right-4 w-10 h-10 flex justify-center items-center rounded-full bg-linear-to-r from-indigo-700 to-purple-600  text-white">
             01
